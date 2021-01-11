@@ -2,16 +2,17 @@ body{
     margin: 0;
     padding: 0;
     font-family: poppine;
-    background: url(/2.jpg);
+    background: url(images/2.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
+    
 }
 
 a{
-    font-size: 12px;
+    font-size: 1.1em;
     text-transform: uppercase;
 }
 
@@ -38,7 +39,7 @@ a{
 .nav-area ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 15px 20px;
+    padding: 20px 20px;
     display: block;
 }
 
@@ -49,7 +50,7 @@ a{
 .nav-area ul ul {
     position: absolute;
     padding : 0;
-    min-width: 160px;
+    min-width: 200px;
     display: none;
     top: 100%;
     left: 0;
@@ -74,4 +75,68 @@ a{
 
 .nav-area ul ul ul li:hover a{
     background: #34495a;
+}
+
+.quick_menu{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.reservation{
+    background-color: white;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    font-size: 1.1em;
+}
+.search_box{
+    background-color: darkgray;
+    padding: 10px;
+    width: 600px;
+    height: 200px;
+    font-size: 1.1em;
+}
+button{
+    cursor: pointer;
+    border: none;
+}
+.buttons{
+    display: inline-flex;
+    justify-content: space-between;
+}
+#member_reservation, #not_member_reservation{
+    width: 130px;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+#member_reservation{
+    background-color: deepskyblue;
+}
+#not_member_reservation{
+    background-color: gray;
+}
+#search_input{
+    border: none;
+    height: 36px;
+    font-size: 20px;
+    padding: 0px;
+    text-indent: 10px;
+    outline: none;
+}
+#search_button{
+    border: none;
+    font-size: 20px;
+    height: 36px;
+    background-color: white;
+    color: blue;
+    margin-left: -10px;
+    padding: 0px 5px 0px 5px;
+}
+.main{
+    height: 90vh;
 }

@@ -1,44 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <!--폰트어썸 주소-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 </head>
+
 <body>
     <nav class="nav-area">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Service</a>
+            <li><a href="#">홈</a></li>
+            <li><a href="#">진료과/의료진</a>
                 <ul>
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">Web Development</a></li>
-                    <li><a href="#">Email Marketing</a></li>
-                    <li><a href="#">Graphics Design</a>
-                        <ul>
-                            <li><a href="#">Logo Design</a></li>
-                            <li><a href="#">Card Design</a></li>
-                            <li><a href="#">Poster Design</a></li>
-                            <li><a href="#">Template Design</a>
-                                <ul>
-                                    <li><a href="#">Web template</a></li>
-                                    <li><a href="#">Email template</a></li>
-                                    <li><a href="#">News template</a></li>
-                                    <li><a href="#">Bio template</a></li>
-                                    <li><a href="#">Wedding template</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Brochure Design</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">진료과</a></li>
+                    <li><a href="#">의료진</a></li>
                 </ul>
             </li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>   
+            <li><a href="#">진료예약</a>
+                <ul>
+                    <li><a href="#">진료과 예약</a></li>
+                </ul>
+            </li>
+            <li><a href="#">병원안내</a>
+                <ul>
+                    <li><a href="#">외래안내</a>
+                        <ul>
+                            <li><a href="#">1번 메뉴</a></li>
+                            <li><a href="#">2번 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">응급진료안내</a></li>
+                    <li><a href="#">증명서발급안내</a>
+                        <ul>
+                            <li><a href="#">1번 메뉴</a></li>
+                            <li><a href="#">2번 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">원무상담</a>
+                        <ul>
+                            <li><a href="#">1번 메뉴</a></li>
+                            <li><a href="#">2번 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">진료차트</a>
+                <ul>
+                    <li><a href="#">예약현황</a></li>
+                    <li><a href="#">건의 및 불편접수</a></li>
+                </ul>
+            </li>
+        </ul>
     </nav>
+    <div class="main">
+        <div class="banner">
+        </div>
+    </div>
+    <div class="quick_menu">
+        <div class="reservation">
+            <h3>인터넷 진료예약</h3>
+            <p>홈페이지에서 일정에 맞춘 진료 예약을 할 수 있습니다.</p>
+            <div class="buttons">
+                <button id="member_reservation">회원예약</button>
+                <button id="not_member_reservation">비회원예약</button>
+            </div>
+        </div>
+        <div class="search_box">
+            <h3>진료과/의료진 검색</h3>
+            <p>원하는 정보를 직접 검색하여 빠르게 찾아볼 수 있습니다.</p>
+            <input type="text" id="search_input" placeholder="진료과명/의료진명 입력">
+            <button id="search_button"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
 </body>
+
 </html>
